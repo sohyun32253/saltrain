@@ -5,10 +5,10 @@
                     <!-- brand goal -->
                     <v-container class="about_goal">
                         <v-row class="d-flex about_goal_cont mx-auto">
-                            <v-col cols="12" xs="12" sm="12" lg="5" class="about_goal_left hidden_left">
+                            <v-col cols="12" xs="12" sm="5" lg="5" class="about_goal_left hidden_left">
                                     <img src="@/assets/about_01.jpg" class="about_01_img">
                             </v-col>
-                            <v-col cols="12" xs="12" sm="12" lg="7" class="about_goal_right align-self-center">
+                            <v-col cols="12" xs="12" sm="7" lg="7" class="about_goal_right">
                                 <div class="about_goal_right_top hidden_in">
                                     <h2>BRAND GOAL</h2>
                                     <div class="txt_wrap">
@@ -21,10 +21,12 @@
                                         즐길 수 있도록 돕는 것은 변함없는 솔트레인의 목표입니다&#46;
                                     </p>
                                 </div>
-                                <div class="about_goal_right_bottom hidden_right">
-                                    <img src="@/assets/about_02.jpg" class="about_02_img">
-                                </div>
                             </v-col>
+                                <v-col cols="12" xs="12" sm="6" lg="6" class="d-flex justify-end align-self-end">
+                                    <div class="about_goal_right_bottom hidden_right" >
+                                        <img src="@/assets/about_02.jpg" class="about_02_img d-flex justify-end align-self-end">
+                                    </div>
+                                </v-col>
                         </v-row>
                     </v-container>
         
@@ -62,13 +64,13 @@
                     <!-- material -->
                     <v-container class="about_material">
                         <v-row class="material_cont mx-auto">
-                            <v-col cols="12" xs="12" sm="12" lg="5">
+                            <v-col cols="12" xs="12" sm="5" lg="5">
                                 <div class="material_left hidden_down">
                                     <img src="@/assets/about_04.jpg" class="about_material_img">
                                 </div>
                             </v-col>
                                 
-                            <v-col cols="12" xs="12" sm="12" lg="7" class="align-self-center">
+                            <v-col cols="12" xs="12" sm="7" lg="7" class="align-self-center">
                                 <div class="material_right hidden_in">
                                         <h2>MATERIAL</h2>
                                         <div class="txt_wrap">
@@ -127,16 +129,6 @@ const initIntersectionObservers = () => {
                         rightTopElement.classList.add('fade_in');
                     }
                 }
-            } else {
-                if (leftElement) {
-                    leftElement.classList.remove('fade_left');
-                }
-                if (rightBottomElement) {
-                    rightBottomElement.classList.remove('fade_right');
-                }
-                if (rightTopElement) {
-                    rightTopElement.classList.remove('fade_in');
-                }
             }
         });
     }, { threshold: 0.4 });
@@ -156,14 +148,7 @@ const initIntersectionObservers = () => {
                         cont02Element.classList.add('fade_down');
                     }, 500);
                 }
-            } else {
-                if (cont01Element) {
-                    cont01Element.classList.remove('fade_down');
-                }
-                if (cont02Element) {
-                    cont02Element.classList.remove('fade_down');
-                }
-            }
+            } 
         });
     }, { threshold: 0.4 });
 
@@ -184,15 +169,7 @@ const initIntersectionObservers = () => {
                         rightElement.classList.add('fade_up');
                     }, (index + leftElements.length) * 500);
                 });
-            } else {
-                leftElements.forEach(leftElement => {
-                    leftElement.classList.remove('fade_up');
-                });
-
-                rightElements.forEach(rightElement => {
-                    rightElement.classList.remove('fade_up');
-                });
-            }
+            } 
         });
     }, { threshold: 0.4 });
 
@@ -227,8 +204,8 @@ initIntersectionObservers();
         
         .hidden_right{
             opacity: 0;
-            transition: all 1.5s;
-            transform: translateX(100%);
+            transition: opacity 1.5s, transform 1.5s;
+            transform: translateX(100vw);
         }
         
         .hidden_down{
@@ -253,12 +230,12 @@ initIntersectionObservers();
         
         .fade_left{
             opacity: 1;
-            transform: translateX(0%); 
+            transform: translateX(0); 
         }
         
         .fade_right{
             opacity: 1;
-            transform: translateX(0);
+           transform: translateX(0); 
         }
         
         .fade_up{
@@ -353,6 +330,7 @@ initIntersectionObservers();
         #about .about_goal_right{
             width: 100%;
             padding-left: 100px;
+            margin-bottom: 100px;
             box-sizing: border-box;
         }
         
@@ -360,11 +338,6 @@ initIntersectionObservers();
            max-width: 100%;
             height: auto;
             object-fit: cover;
-        }
-        
-        .about_02_img{
-            width: 100%;
-            height: auto;
         }
         
         .about_box_01{
@@ -394,7 +367,6 @@ initIntersectionObservers();
             position: relative;
             z-index: 0;
         }
-        
         
         .about_value_cover{
             width: 100%;
@@ -456,6 +428,10 @@ initIntersectionObservers();
             box-sizing: border-box;
         }
         
+        .about_02_img{
+            width: 100%; 
+            height: auto;
+        }
         
         .about_box_03{
             width: 257px;
@@ -477,11 +453,56 @@ initIntersectionObservers();
             width: 100%;
             box-sizing: border-box;
           }
+
+
+          @media screen and (max-width:600px){
+            .about_goal_cont{
+                padding: 0;
+             }
+
+             #about .about_goal_right{
+                padding-left: 0;
+                text-align: center;
+                margin-bottom: 0;
+            }
+
+            .about_box_01{
+                margin:0 auto 3.75rem;
+            }
+
+            .txt_02{
+                margin-bottom: 40px;
+            }
+
+            p{
+                font-size: 16px;
+            }
+
+            .about_material{
+                padding: 0;
+            }
+
+
+             .material_right{
+                padding: 0;
+             }
+
+             .material_cont{
+                text-align: center;
+             }
+
+             .about_box_03{
+                margin:0 auto 3.75rem;
+            }
+
+            .slide-container{
+                display: none;
+            }
+          }
           
-          /* 모바일 버전 미디어 쿼리*/
+          /*
         
         @media screen and (max-width:768px){
-            
             p{
                 font-size: 14px;
             }
@@ -491,7 +512,7 @@ initIntersectionObservers();
                 font-weight: 700; font-style: normal;
                }
             
-            /* about_goal */
+            /* about_goal 
             .about_goal_cont{
                 max-width:480px;
                  margin: 0 auto;
@@ -551,8 +572,7 @@ initIntersectionObservers();
             #about .S_logo{
                 display: none;
             }
-        }
-        
+        }*/ 
         
         </style>
         

@@ -2,7 +2,6 @@
 <div id="header">
     <v-app-bar app color="#000" height="80px">
         <nav>
-            
             <div class="gnb">
                 <h1><router-link to="/"><img src="@/assets/logo_white.svg" alt="saltrain"></router-link></h1>
                 <ul>
