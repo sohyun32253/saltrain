@@ -2,7 +2,6 @@
   <v-app>
     <Header></Header> <!-- 상단에 헤더 컴포넌트 포함 -->
     <v-main>
-      
       <router-view/> <!-- 라우터에 의해 선택된 컴포넌트가 이곳에 렌더링 -->
     </v-main>
     <Footer></Footer> <!-- 하단에 푸터 컴포넌트 포함 -->
