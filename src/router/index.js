@@ -1,7 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Main from '@/components/Main.vue'
 import Header from '@/components/Header.vue'
-import Header_white from '@/components/Header_white.vue'
 import Footer from '@/components/Footer.vue'
 import Products from '@/components/Products.vue'
 import Store from '@/components/Store.vue'
@@ -31,11 +30,6 @@ const router = createRouter({
       path: '/header',
       name: 'header',
       component: Header
-    },
-    {
-      path: '/header_white',
-      name: 'header_white',
-      component: Header_white
     },
     {
       path: '/footer',
