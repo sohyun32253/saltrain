@@ -19,3 +19,13 @@
 
 #### 평가 및 느낀점
 "Vue.js를 공부한 지 얼마 되지 않아 프로젝트에 대한 심리적 부담이 컸습니다. 하지만 팀원들과의 의견 조율을 통해 기존 HTML 코드를 작성한 후 Vue.js로 전환하는 방식을 채택하며 문제를 해결해 나갔습니다. 서로의 의견을 공유하고 논의하는 과정 덕분에 사이트 개발을 무사히 마칠 수 있었습니다. 또한, GitHub를 사용하여 코드 공유와 파일 관리를 효율적으로 진행했고, 정기 회의를 통해 진행 상황과 계획을 공유하면서 기본적인 개발 프로세스를 확립할 수 있었습니다."
+
+---
+
+**DESIGN TOOL – figma, illustrator**
+pc, 모바일 버전 레이아웃 디자인 및 개발
+![saltrain_readme_01](https://github.com/user-attachments/assets/e252e1ad-fcdb-42f8-8d85-27b123161643)
+
+**WEB TOOL – html5, css3, javascript, vue.js, vite**
+반응형 헤더 및 푸터 작업
+![saltrain_readme_02](https://github.com/user-attachments/assets/0a1c6331-33f1-46e1-9499-08365e3059b4)
