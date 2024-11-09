@@ -67,9 +67,8 @@
 
     #footer .v-footer{
         width: 100%;
-        padding: 0; /* padding 제거 */
-        max-height: 400px; /* 높이 고정 */
-        box-sizing: border-box; /* box-sizing을 border-box로 설정 */
+        padding: 0;
+        box-sizing: border-box; 
     }
 
     .footer_wrap{
@@ -92,7 +91,6 @@
         margin-right: 23px;
     }
 
-
    .footer_bottom_bottom{
         display: flex;
     }
@@ -109,11 +107,9 @@
     .footer_bottom_address{
         display: flex;
     }
-
     
     @media (max-width: 768px) {
-        #footer .v-footer{
-            max-height: 490px; 
+        #footer .v-footer{ 
             text-align: center;
         }
 
@@ -124,7 +120,7 @@
 
         .footer_wrap{
             width:480px;
-            padding: 200px 0 120px;
+            padding: 80px 0 80px;
         }
 
         .footer_top{
