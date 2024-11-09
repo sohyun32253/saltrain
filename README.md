@@ -26,4 +26,5 @@ pc, 모바일 버전 레이아웃 디자인 및 개발
 ![saltrain_readme_01](https://github.com/user-attachments/assets/e252e1ad-fcdb-42f8-8d85-27b123161643)
 
 **WEB TOOL – html5, css3, javascript, vue.js, vite**
+반응형 헤더 및 푸터 작업
 ![saltrain_readme_02](https://github.com/user-attachments/assets/b7f5b5bf-190c-4ae1-9173-880a44c40b6c)
