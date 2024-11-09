@@ -17,7 +17,7 @@
                   <div class="util_menu">
                       <button type="button" class="language_menu"><router-link to="#none"><img src="@/assets/language_w300.svg" alt="언어"></router-link></button>
                       <button type="button" class="search_menu" @click="openPopup"><router-link to="#none"><img src="@/assets/search_w300.svg" alt="검색"></router-link></button>
-                      <button type="button" class="login_menu"><router-link to="Login"><img src="@/assets/person_w300.svg" alt="로그인"></router-link></button>
+                      <button type="button" class="login_menu"><router-link to="#none"><img src="@/assets/person_w300.svg" alt="로그인"></router-link></button>
                       <button type="button" class="cart_menu"><router-link to="#none"><img src="@/assets/shopping_bag_w300.svg" alt="장바구니"></router-link></button>
                   </div>
               </div>
@@ -77,7 +77,7 @@
               </li>
           </ul> 
           <div class="utill_menu_mobile">
-              <button type="button" class="login_menu"><router-link to="Login"><img src="@/assets/person_black.svg" alt="로그인"></router-link></button>
+              <button type="button" class="login_menu"><router-link to="#none"><img src="@/assets/person_black.svg" alt="로그인"></router-link></button>
               <button type="button" class="cart_menu"><router-link to="#none"><img src="@/assets/shopping_bag_black.svg" alt="장바구니"></router-link></button>
               <button type="button" class="language_menu"><router-link to="#none"><img src="@/assets/language_black.svg" alt="언어"></router-link></button>
           </div>  
