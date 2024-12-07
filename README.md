@@ -21,7 +21,7 @@
 
 
 #### 배포 주소 : https://sohyun32253.github.io/maeil_project/
-#### 기획서 링크 : [매일유업_기획서_1조.pptx](https://github.com/sohyun32253/saltrain/saltrain_2조.pptx)
+#### 기획서 링크 :(https://github.com/sohyun32253/saltrain/saltrain_2조.pptx)
 
 
 
