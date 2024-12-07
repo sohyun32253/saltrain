@@ -21,7 +21,7 @@
 
 
 #### 배포 주소 : https://sohyun32253.github.io/maeil_project/
-#### 기획서 링크 :[saltrain_2조.pptx](https://github.com/sohyun32253/saltrain/main/saltrain_2조.pptx)(위 파일에 있음)
+#### 기획서 링크 :[saltrain_2조.pptx](https://github.com/sohyun32253/saltrain/main/saltrain_2조.pptx)(위 파일에서 다운로드)
 
 
 
