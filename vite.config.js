@@ -8,7 +8,7 @@ import vuetify from 'vite-plugin-vuetify'
 // https://vitejs.dev/config/
 export default defineConfig({
 	assetsInclude: ['**/*.PNG', '**/*.png'],  // PNG 파일을 Vite가 올바르게 처리할 수 있도록 포함
-	
+	logLevel: 'info',
 	 base: '/saltrain/',
 
   plugins: [
