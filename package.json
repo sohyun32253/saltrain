@@ -8,6 +8,7 @@
     "dev": "vite",
     "preview": "vite preview"
   },
+  "homepage": "./",
   "dependencies": {
     "@mdi/font": "5.9.55",
     "firebase": "^10.12.5",
