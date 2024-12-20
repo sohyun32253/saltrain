@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "saltrain-f8238"
-  }
+    "default": "saltrain-f8238",
+    " ": "saltrain-f8238"
+  },
+  "targets": {},
+  "etags": {}
 }
