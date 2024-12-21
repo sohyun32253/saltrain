@@ -20,7 +20,7 @@
 
 
 
-#### 배포 주소 : (https://saltrain-a74c4.web.app/)
+#### 배포 주소 : https://saltrain-a74c4.web.app/
 #### 기획서 링크 :https://docs.google.com/presentation/d/10hSwQnBAfE3QCZ6YEUgXffCe6LVi38IxIpYquW2H6Y4/edit?usp=sharing
 
 
