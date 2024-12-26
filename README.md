@@ -22,9 +22,6 @@
 
 #### 배포 주소 : https://saltrain-a74c4.web.app/
 #### 기획서 링크 :https://docs.google.com/presentation/d/10hSwQnBAfE3QCZ6YEUgXffCe6LVi38IxIpYquW2H6Y4/edit?usp=sharing
-#### 코드 정리 : https://plant-paddleboat-f1c.notion.site/SALTRAIN-15d2cfe07323801790a5ceea5169f3ba
-
-
 
 
 #### 수행업무
